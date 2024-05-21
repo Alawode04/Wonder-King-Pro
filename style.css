@@ -1,0 +1,33 @@
+* {
+  background-color: lightblue;
+}
+.list {
+  list-style: none;
+  font-size: 30px;
+  font-weight: bolder;
+  justify-content: space-between;
+  display: flex;
+}
+.list :hover {
+  text-decoration: none;
+  color: black;
+}
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.cards img {
+  width: 100%;
+  height: auto;
+}
+main p {
+  padding-left: 20px;
+  font-weight: bold;
+}
